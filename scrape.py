@@ -2,7 +2,7 @@ import time as t
 from seleniumbase import SB
 from bs4 import BeautifulSoup
 
-with SB(uc=True) as sb:
+with SB(uc=True,proxy='pmzeuqsa:1xhaurrbes2z@198.23.239.134:6540') as sb:
     while(True):
       try:
             url = "https://visas-fr.tlscontact.com/country/tn/vac/tnTUN2fr"
