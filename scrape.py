@@ -8,7 +8,7 @@ with SB(uc=True) as sb:
     sb.sleep(5)
     sb.cdp.flash('button.osano-cm-dialog__close', duration=2)
     sb.cdp.click('button.osano-cm-dialog__close')  # closes the cookies banner to make the next button visible on my laptop
-    sb.cdp.highlight('button#btn-navigation-login')
+    #sb.cdp.highlight('button#btn-navigation-login')
     # sb.cdp.flash("SE CONNECTER",duration=4,pause=2)
     sb.cdp.click("SE CONNECTER")
     # sb.cdp.flash('button.tls-button',duration=4,pause=2)
