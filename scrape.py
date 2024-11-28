@@ -7,8 +7,8 @@ with SB(uc=True) as sb:
       url = "https://visas-fr.tlscontact.com/country/tn/vac/tnTUN2fr"
       sb.activate_cdp_mode(url)
       sb.sleep(5)
-      sb.cdp.flash('button.osano-cm-dialog__close', duration=2)
-      sb.cdp.click('button.osano-cm-dialog__close')  # closes the cookies banner to make the next button visible on my laptop
+      #sb.cdp.flash('button.osano-cm-dialog__close', duration=2)
+      #sb.cdp.click('button.osano-cm-dialog__close')  # closes the cookies banner to make the next button visible on my laptop
       #sb.cdp.highlight('button#btn-navigation-login')
       # sb.cdp.flash("SE CONNECTER",duration=4,pause=2)
       sb.cdp.click("SE CONNECTER")
