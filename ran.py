@@ -11,4 +11,4 @@ with SB(uc=True) as sb:
     print(table)
     print(type(table))
     soup = BeautifulSoup(table.get_html(),'html.parser')
-
+    #fdfd
